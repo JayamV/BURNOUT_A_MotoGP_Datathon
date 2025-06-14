@@ -10,7 +10,7 @@ Members: Jayam V & Nishok A
 <br>
 # DataSet Information
 ## Columns
-Unique ID: A unique identifier for each row in the dataset. <br>
+*Unique ID:* A unique identifier for each row in the dataset. <br>
 Rider_ID: Unique identifier assigned to each rider. <br>
 category_x: The racing category (e.g., MotoGP, Moto2). <br>
 Circuit_Length_km: Total length of the race circuit in kilometers. <br>
