@@ -1,15 +1,15 @@
 # BURNOUT_A_MotoGP_Datathon
 A high-octane 12-hour datathon 🏍️ that brings together the thrill of MotoGP racing and the power of data analytics! Compete on Kaggle, dive into complex MotoGP datasets, and use machine learning 🧠 to predict race outcomes and uncover game-changing insights
-
-#Burnout 2025: MotoGP Data Analytics Challenge 🏁
+<br>
+# Burnout 2025: MotoGP Data Analytics Challenge 🏁
 IEEE Computer Society MUJ presents Burnout 2025! 🌟 Step into the fast-paced world of MotoGP racing and analyse rider performance, lap times, and race strategies across multiple seasons. With a dataset packed with racing stats, this competition provides a comprehensive look at the sport’s dynamics, challenging you to push the boundaries of data science in motorsports.
-
-#Team Details
+<br>
+# Team Details
 Team Name: Azertronz
 Members: Jayam V & Nishok A
-
-#DataSet Information
-##Columns
+<br>
+# DataSet Information
+## Columns
 Unique ID: A unique identifier for each row in the dataset.
 Rider_ID: Unique identifier assigned to each rider.
 category_x: The racing category (e.g., MotoGP, Moto2).
@@ -56,14 +56,14 @@ Wins: Number of race victories.
 Min_year: First year the rider competed.
 Max_year: Most recent year the rider was active.
 Years_active: Total number of active racing years.
-
-##📁 Files Included:
+<br>
+## 📁 Files Included:
 train.csv - the training set
 test.csv - the test set
 sample_submission.csv - a sample submission file in the correct format
 val.csv - to check accuracy on unknown data
-
-#Evaluation Metric
+<br>
+# Evaluation Metric
 Root Mean Squared Error (RMSE) is a commonly used evaluation metric for regression problems in Kaggle competitions. It measures the average magnitude of the errors between the predicted and actual values, providing an indication of the model's accuracy.
-
+<br>
 Competition link: https://www.kaggle.com/c/burnout-datathon-ieeecsmuj
