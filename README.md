@@ -10,58 +10,58 @@ Members: Jayam V & Nishok A
 <br>
 # DataSet Information
 ## Columns
-Unique ID: A unique identifier for each row in the dataset.
-Rider_ID: Unique identifier assigned to each rider.
-category_x: The racing category (e.g., MotoGP, Moto2).
-Circuit_Length_km: Total length of the race circuit in kilometers.
-Laps: Number of laps in the race.
-Grid_Position: Starting position of the rider on the grid.
-Avg_Speed_kmh: Average speed of the rider during the race (in km/h).
-Track_Condition: Surface condition of the track (e.g., dry, wet).
-Humidity_%: Humidity level during the session, in percentage.
-Tire_Compound_Front: Type of tire compound used on the front tire.
-Tire_Compound_Rear: Type of tire compound used on the rear tire.
-Penalty: Penalties incurred by the rider during the race.
-Championship_Points: Total points accumulated in the championship so far.
-Championship_Position: Current rank in the championship standings.
-Session: Type of session (Race, Qualifying, Practice, etc.).
-Year_x: Year in which the session took place.
-Sequence: Order or sequence of the entry within a session or race.
-Rider: A unique identifier assigned to each rider.
-Team: A unique identifier assigned to each team.
-Bike: A unique identifier assigned to each bike.
-Position: Final finishing position in the race.
-(-1 = DNF (Did Not Finish), -2 = DNS (Did Not Start), -3 = DSQ (Disqualified), -4 = DNQ (Did Not Qualify / Technical issue))
-Points: Points awarded for the race based on finishing position.
-Shortname: Abbreviated or nickname version of the country.
-Circuit_name: Full name of the circuit where the race took place.
-Rider_name: Full name of the rider.
-Team_name: Full name of the team.
-Bike_name: Model of the bike.
-Lap_Time_Seconds: Average time per lap in seconds (Target Variable).
-Corners_per_Lap: Number of corners in one lap of the circuit.
-Tire_Degradation_Factor_per_Lap: Average tire wear rate per lap.
-Pit_Stop_Duration_Seconds: Time spent during pit stops, in seconds.
-Ambient_Temperature_Celsius: Air temperature during the session.
-Track_Temperature_Celsius: Track surface temperature during the session.
-Weather: Weather condition (e.g., sunny, rainy).
-Track: Track temperature.
-Air: Air temperature.
-Ground: Ground or surface temperature of the track.
-Starts: Total number of race starts in the rider's career.
-Finishes: Total number of races the rider finished.
-With_points: Number of races where the rider scored points.
-Podiums: Number of times the rider finished in the top 3.
-Wins: Number of race victories.
-Min_year: First year the rider competed.
-Max_year: Most recent year the rider was active.
-Years_active: Total number of active racing years.
+Unique ID: A unique identifier for each row in the dataset. <br>
+Rider_ID: Unique identifier assigned to each rider. <br>
+category_x: The racing category (e.g., MotoGP, Moto2). <br>
+Circuit_Length_km: Total length of the race circuit in kilometers. <br>
+Laps: Number of laps in the race. <br>
+Grid_Position: Starting position of the rider on the grid. <br>
+Avg_Speed_kmh: Average speed of the rider during the race (in km/h). <br>
+Track_Condition: Surface condition of the track (e.g., dry, wet). <br>
+Humidity_%: Humidity level during the session, in percentage. <br>
+Tire_Compound_Front: Type of tire compound used on the front tire. <br>
+Tire_Compound_Rear: Type of tire compound used on the rear tire. <br>
+Penalty: Penalties incurred by the rider during the race. <br>
+Championship_Points: Total points accumulated in the championship so far. <br>
+Championship_Position: Current rank in the championship standings. <br>
+Session: Type of session (Race, Qualifying, Practice, etc.). <br>
+Year_x: Year in which the session took place. <br>
+Sequence: Order or sequence of the entry within a session or race. <br>
+Rider: A unique identifier assigned to each rider. <br>
+Team: A unique identifier assigned to each team. <br>
+Bike: A unique identifier assigned to each bike. <br>
+Position: Final finishing position in the race. <br>
+(-1 = DNF (Did Not Finish), -2 = DNS (Did Not Start), -3 = DSQ (Disqualified), -4 = DNQ (Did Not Qualify / Technical issue)) <br>
+Points: Points awarded for the race based on finishing position.<br>
+Shortname: Abbreviated or nickname version of the country. <br>
+Circuit_name: Full name of the circuit where the race took place. <br>
+Rider_name: Full name of the rider. <br>
+Team_name: Full name of the team. <br>
+Bike_name: Model of the bike. <br>
+Lap_Time_Seconds: Average time per lap in seconds (Target Variable). <br>
+Corners_per_Lap: Number of corners in one lap of the circuit. <br>
+Tire_Degradation_Factor_per_Lap: Average tire wear rate per lap. <br>
+Pit_Stop_Duration_Seconds: Time spent during pit stops, in seconds. <br>
+Ambient_Temperature_Celsius: Air temperature during the session. <br>
+Track_Temperature_Celsius: Track surface temperature during the session. <br>
+Weather: Weather condition (e.g., sunny, rainy). <br>
+Track: Track temperature. <br>
+Air: Air temperature. <br>
+Ground: Ground or surface temperature of the track. <br>
+Starts: Total number of race starts in the rider's career. <br>
+Finishes: Total number of races the rider finished. <br>
+With_points: Number of races where the rider scored points. <br>
+Podiums: Number of times the rider finished in the top 3. <br>
+Wins: Number of race victories. <br>
+Min_year: First year the rider competed. <br>
+Max_year: Most recent year the rider was active. <br>
+Years_active: Total number of active racing years. <br>
 <br>
 ## 📁 Files Included:
-train.csv - the training set
-test.csv - the test set
-sample_submission.csv - a sample submission file in the correct format
-val.csv - to check accuracy on unknown data
+train.csv - the training set <br>
+test.csv - the test set <br>
+sample_submission.csv - a sample submission file in the correct format <br>
+val.csv - to check accuracy on unknown data <br>
 <br>
 # Evaluation Metric
 Root Mean Squared Error (RMSE) is a commonly used evaluation metric for regression problems in Kaggle competitions. It measures the average magnitude of the errors between the predicted and actual values, providing an indication of the model's accuracy.
